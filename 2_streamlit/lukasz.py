@@ -3,12 +3,12 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 st.set_page_config(
-    page_title="Mini Dashboard CSV Analyzer",
+    page_title="Moja pirmitywna aplikacja Streamlit",
     page_icon="📊",
     layout="wide"
 )
 
-st.title("📊 Mini Dashboard CSV Analyzer")
+st.title("📊 Moja pirmitywna aplikacja Streamlit")
 st.write("Wgraj plik CSV i zobacz szybkie podsumowanie danych.")
 
 uploaded_file = st.file_uploader("Wybierz plik CSV", type=["csv"])
